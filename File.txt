@@ -1,0 +1,112 @@
+[200~DevOps Roadmap
+1. Basics & Foundations
+
+🔹 Before DevOps, you need strong basics:
+
+Linux: Commands (ls, cd, grep, chmod, ps, top, vim)
+
+Networking: DNS, TCP/IP, HTTP/HTTPS, ports, firewalls
+
+Scripting: Bash scripting (loops, conditions, automation)
+
+Git & GitHub: Branching, merging, pull requests, version control
+
+2. Programming & Scripting
+
+Learn at least one scripting language:
+
+Python (preferred for DevOps automation)
+
+Or Shell scripting for quick tasks
+
+3. Continuous Integration (CI)
+
+Learn to automate build & test pipelines.
+
+Tools: Jenkins, GitHub Actions, GitLab CI/CD, CircleCI
+
+Concepts:
+
+Build automation
+
+Unit tests in pipelines
+
+Artifact storage
+
+4. Continuous Delivery & Deployment (CD)
+
+Automating releases into staging & production.
+
+Tools: Jenkins Pipelines, ArgoCD, Spinnaker
+
+Concepts: Blue-Green Deployments, Canary Releases
+
+5. Containers & Orchestration
+
+Docker:
+
+Images, containers, volumes, networks
+
+Dockerfile, Docker Compose
+
+Kubernetes (K8s):
+
+Pods, Deployments, Services, Ingress
+
+ConfigMaps & Secrets
+
+Scaling & self-healing
+
+Helm (package manager for K8s)
+
+6. Infrastructure as Code (IaC)
+
+Terraform: Cloud infra automation
+
+Ansible: Configuration management
+
+CloudFormation (AWS-specific alternative to Terraform)
+
+Concepts: idempotency, state management, provisioning
+
+7. Cloud Platforms
+
+Pick at least one (preferably AWS, but Azure/GCP are also fine):
+
+Compute: EC2, VM, Kubernetes Service
+
+Storage: S3, Blob, GCS
+
+Networking: VPC, Load Balancer, Security Groups
+
+Databases: RDS, DynamoDB, CloudSQL
+
+Cloud DevOps services: AWS CodePipeline, Azure DevOps, GCP Cloud Build
+
+8. Monitoring & Logging
+
+Metrics: Prometheus + Grafana
+
+Logs: ELK/EFK Stack
+
+Tracing: Jaeger, OpenTelemetry
+
+Alerts → Slack, Email, PagerDuty
+
+9. DevSecOps (Security in DevOps)
+
+Secret management: HashiCorp Vault, AWS Secrets Manager
+
+Vulnerability scanning: Trivy, Snyk
+
+Secure CI/CD pipelines (SonarQube, OWASP Dependency Check)
+
+10. Advanced Practices
+
+GitOps: ArgoCD, FluxCD
+
+Serverless: AWS Lambda, Azure Functions
+
+SRE concepts: SLIs, SLOs, SLAs, incident management
+
+CI/CD in Kubernetes~
