@@ -1,0 +1,37 @@
+1. Initial Setup (only once per repo)
+git clone <repo_url>        # download repo from GitHub
+git branch -a               # check all branches
+git checkout -b <branch>    # create and switch to a new branch
+git checkout <branch>       # switch to existing branch
+
+🔹 2. Regular Workflow
+git status                  # check file status (modified/untracked)
+git add <file/folder>       # add specific file/folder
+git add .                   # add everything (shortcut)
+git commit -m "message"     # save changes locally
+git push                    # upload to GitHub (current branch)
+git pull                    # get latest changes from GitHub
+
+🔹 3. Branch Management
+git branch                  # list branches
+git branch -d <branch>      # delete local branch
+git push origin --delete <branch>   # delete remote branch
+
+🔹 4. Undo / Fix Mistakes
+git reset --hard HEAD~1     # undo last commit (careful!)
+git checkout -- <file>      # discard changes in a file
+git restore <file>          # (newer alternative for above)
+
+🔹 5.  Useful Shortcuts
+git log --oneline --graph   # view commits history
+git diff                    # see changes before commit
+git stash                   # temporarily save changes
+git stash pop               # get them back
+
+
+⚡ Super Short Daily Flow (most common):
+
+git status
+git add .
+git commit -m "your message"
+git push
